@@ -167,7 +167,7 @@ function descripcion(result) {
 function obtenerDatos(objeto, id) {
 	objeto.click(function() {
 		$.ajax({
-			url: "http://www.omdbapi.com/?i=" + id + "&apikey=ffbf2dce",
+			url: "https://www.omdbapi.com/?i=" + id + "&apikey=ffbf2dce",
 			success: function(result) {
 				descripcion(result);
 			}
@@ -179,7 +179,7 @@ function obtenerDatos(objeto, id) {
 function peticionBoton(tipo) {
 	$.ajax({
 		url:
-			"http://www.omdbapi.com/?s=" +
+			"https://www.omdbapi.com/?s=" +
 			$("#texto").val() +
 			"&type=" +
 			tipo +
