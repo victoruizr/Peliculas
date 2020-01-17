@@ -241,10 +241,7 @@ function Scroll() {
 			$("#tipos option:selected").val() == undefined
 		) {
 			peticionScroll("series");
-		} else if (
-			$("#tipos option:selected").val() ==
-			"peliculas" /* &&(bloqueado==false) */
-		) {
+		} else if ($("#tipos option:selected").val() == "peliculas") {
 			peticionScroll("Movie");
 		}
 	}
