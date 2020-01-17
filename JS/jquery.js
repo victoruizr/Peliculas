@@ -209,7 +209,7 @@ function peticionScroll(tipo) {
 		peticionEnCurso = true;
 		$.ajax({
 			url:
-				"http://www.omdbapi.com/?s=" +
+				"https://www.omdbapi.com/?s=" +
 				$("#texto").val() +
 				"&page=" +
 				(pagina += 1) +
