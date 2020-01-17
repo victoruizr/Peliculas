@@ -1,3 +1,5 @@
+/* https://victoruizr.github.io/Peliculas/ */
+
 var pagina = 1;
 var imagenes = 0;
 var peticionEnCurso = false;
