@@ -235,7 +235,7 @@ function peticionScroll(tipo) {
 }
 /*Esta funcion se ejecuta cuando el scroll llega al final*/
 function Scroll() {
-	if ($(document).height() - $(window).height() == $(window).scrollTop()) {
+	if ($(window).scrollTop() == $(document).height() - $(window).height()) {
 		if (
 			$("#tipos option:selected").val() == "series" ||
 			$("#tipos option:selected").val() == undefined
